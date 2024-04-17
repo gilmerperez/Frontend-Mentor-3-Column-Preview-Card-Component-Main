@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    overflow: hidden;
+}
+
+.main-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.left-card {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 50px;
+}
+
+.middle-card {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.right-card {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 50px;
+}
+
+.orange { 
+    color: hsl(31, 77%, 52%);
+}
+
+.cyan {
+    color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan {
+    color: hsl(179, 100%, 13%);
+}
+
+svg {
+    margin-top: 20px;
+}
+
+.left-card, .middle-card, .right-card {
+    height: 600px;
+    width: 350px;
+    padding: 40px;
+}
+
+.left-card h1, .middle-card h1, .right-card h1 {
+    color: hsl(0, 0%, 95%);
+    margin-top: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+.left-card p, .middle-card p, .right-card p {
+    font-family: "Lexend Deca", sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.left-card button, .middle-card button, .right-card button {
+    font-family: "Lexend Deca", sans-serif;
+    margin-top: 120px;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
